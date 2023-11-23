@@ -7,23 +7,15 @@ import nextjs from '../assets/nextjs.png';
 import node from '../assets/node.png';
 import react from '../assets/react.png';
 import tailwind from '../assets/tailwind.png';
-import graphql from '../assets/graphql.png';
+import nestjs from '../assets/nestjs.png';
+import typescript from '../assets/typescript.png';
+import bootstrap from '../assets/bootstrap.png';
+import postgres from '../assets/postgres.png';
+
 
 const Experience = () => {
 
 const experienceData = [
-    {
-        id: 1,
-        imgHref: html,
-        altText: 'HTML',
-        style: 'shadow-orange-500'
-    },
-    {
-        id: 2,
-        imgHref: css,
-        altText: 'CSS',
-        style: 'shadow-blue-500'
-    },
     {
         id: 3,
         imgHref: react,
@@ -37,16 +29,28 @@ const experienceData = [
         style: 'shadow-green-500'
     },
     {
-        id: 5,
-        imgHref: tailwind,
-        altText: 'TAILWIND CSS',
-        style: 'shadow-sky-400'
-    },
-    {
         id: 6,
         imgHref: nextjs,
         altText: 'NEXTJS',
         style: 'shadow-white'
+    },
+    {
+        id: 1,
+        imgHref: html,
+        altText: 'HTML',
+        style: 'shadow-orange-500'
+    },
+    {
+        id: 2,
+        imgHref: css,
+        altText: 'CSS',
+        style: 'shadow-blue-500'
+    },
+    {
+        id: 5,
+        imgHref: tailwind,
+        altText: 'TAILWIND CSS',
+        style: 'shadow-sky-400'
     },
     {
         id: 7,
@@ -55,25 +59,43 @@ const experienceData = [
         style: 'shadow-yellow-500'
     },
     {
+        id: 10,
+        imgHref: typescript,
+        altText: 'TYPESCRIPT',
+        style: 'shadow-sky-400'
+    },
+    {
         id: 8,
         imgHref: github,
         altText: 'GITHUB',
         style: 'shadow-gray-400'
     },
     {
-        id: 9,
-        imgHref: graphql,
-        altText: 'GRAPHQL',
-        style: 'shadow-pink-400'
+        id: 10,
+        imgHref: nestjs,
+        altText: 'NESTJS',
+        style: 'shadow-red-400'
+    },
+    {
+        id: 11,
+        imgHref: bootstrap,
+        altText: 'BOOTSTRAP',
+        style: 'shadow-blue-600'
+    },
+    {
+        id: 12,
+        imgHref: postgres,
+        altText: 'POSTGRES',
+        style: 'shadow-sky-600'
     },
 ]
     
   return (
-    <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
+    <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen min-h-max'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div >
                 <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>
-                    Experince
+                    Experience
                 </p>
                 <p className='py-6'>
                     These are the technologies I've worked with

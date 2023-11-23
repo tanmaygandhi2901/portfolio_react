@@ -13,7 +13,7 @@ const SocialLinks = () => {
                     Linkedin <FaLinkedin size={30} />
                 </>
             ),
-            href: 'https://www.linkedin.com',
+            href: 'https://www.linkedin.com/in/tanmay-gandhi-12783b1a0/',
             style: 'rounded-tr-md'
         },
         {
@@ -23,7 +23,7 @@ const SocialLinks = () => {
                     Github <FaGithub size={30} />
                 </>
             ),
-            href: 'https://www.linkedin.com',
+            href: 'https://github.com/tanmaygandhi2901',
         },
         {
             id: 3,
