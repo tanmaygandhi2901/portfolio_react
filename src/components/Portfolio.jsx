@@ -1,45 +1,45 @@
 //create your own pictures from chatgpt4
 
 import React from 'react';
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg';
-import installNode from '../assets/portfolio/installNode.jpg';
-import navbar from '../assets/portfolio/navbar.jpg';
-import reactParallax from '../assets/portfolio/reactParallax.jpg';
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
-import reactWeather from '../assets/portfolio/reactWeather.jpg';
+import PortfolioImg from '../assets/portfolio/Portfolio.png';
+import Monorepo from '../assets/portfolio/Monorepo.png';
+import Clean from '../assets/portfolio/Clean.png';
+import Test from '../assets/portfolio/Test.png';
+import Supply from '../assets/portfolio/Supply.png';
+import Wallet from '../assets/portfolio/Wallet.png';
 
 const Portfolio = () => {
 
     const portfolioData = [
         {
             id: 1,
-            src: arrayDestruct,
-            link: 'https://github.com/tanmaygandhi2901/microfrontend'
+            src: PortfolioImg,
+            link: 'https://github.com/tanmaygandhi2901/portfolio_react'
         },
         {
             id: 2,
-            src: installNode,
+            src: Monorepo,
             link: 'https://github.com/tanmaygandhi2901/microfrontend'
         },
         {
             id: 3,
-            src: navbar,
-            link: 'https://github.com/tanmaygandhi2901/microfrontend'
+            src: Clean,
+            link: 'https://github.com/tanmaygandhi2901/clean-architecture-nestjs'
         },
         {
             id: 4,
-            src: reactParallax,
-            link: 'https://github.com/tanmaygandhi2901/microfrontend'
+            src: Test,
+            link: 'https://github.com/tanmaygandhi2901/react-testing'
         },
         {
             id: 5,
-            src: reactSmooth,
-            link: 'https://github.com/tanmaygandhi2901/microfrontend'
+            src: Supply,
+            link: 'https://github.com/tanmaygandhi2901/suppychainDRIPP'
         },
         {
             id: 6,
-            src: reactWeather,
-            link: 'https://github.com/tanmaygandhi2901/microfrontend'
+            src: Wallet,
+            link: 'https://github.com/tanmaygandhi2901/wallet'
         }
     ]
 
