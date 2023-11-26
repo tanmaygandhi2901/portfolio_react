@@ -11,7 +11,7 @@ const Home = () => {
                     I'm a Full Stack Developer
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                    I'm Tanmay, a passionate Full Stack Developer and dedicated JavaScript enthusiast with nearly 3 years of professional experience. If there's one thing you should know about me, it's that I'm a true JavaScript nerd, always excited about exploring the endless possibilities this language offers.
+                    I'm Tanmay, a passionate Full Stack Developer and dedicated JavaScript enthusiast with 3 years of professional experience. If there's one thing you should know about me, it's that I'm a true JavaScript nerd, always excited about exploring the endless possibilities this language offers.
                 </p>
                 <div>
                     <Link smooth duration={500} to='portfolio' className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
